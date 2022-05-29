@@ -104,7 +104,7 @@ const Contact = ({darkMode}) => {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="mailto://niteshrawat0401@gmail.com/"
+                                    href="mailto:niteshrawat0401@gmail.com"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"
