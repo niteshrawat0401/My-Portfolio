@@ -2,7 +2,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Home, About, Skills, Experience, Contact, Footer } from './components'
+import { Home, About, Skills, Contact, Footer } from './components'
+import Project from './components/Project';
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -27,7 +28,7 @@ function App() {
                 <Nav className="mr-auto">
                     <Nav.Link href="#about" className="link">About me</Nav.Link>
                     <Nav.Link href="#skills" className="link">Skills</Nav.Link>
-                    <Nav.Link href="#experience" className="link">Experience</Nav.Link>
+                    <Nav.Link href="#Project" className="link">Project</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
                 </Nav>
                 <Button onClick={toggleDarkMode} variant={darkMode ? "outline-light" : "outline-dark"}>
@@ -45,8 +46,8 @@ function App() {
           <div id="skills">
           <Skills darkMode={darkMode} />
           </div>
-          <div id="experience">
-          <Experience darkMode={darkMode} />
+          <div id="Project">
+          <Project darkMode={darkMode} />
           </div>
           <div id="contact">
           <Contact darkMode={darkMode} />  

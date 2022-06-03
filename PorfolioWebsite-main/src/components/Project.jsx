@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/esm/Col'
 import Card from 'react-bootstrap/esm/Card'
 
 
-const Experience = ({ darkMode }) => {
+const Project = ({ darkMode }) => {
 
     return (
         <div data-theme={darkMode ? "dark" : "light"}>
@@ -148,4 +148,4 @@ const Experience = ({ darkMode }) => {
     )
 }
 
-export default Experience
+export default Project
