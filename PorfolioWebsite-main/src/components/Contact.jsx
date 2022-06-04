@@ -14,7 +14,8 @@ const Contact = ({darkMode}) => {
 
     const [templateParams, setTemplateParams] = useState({
 		from_name: '',
-        message: ''
+        message: '',
+        usermail_id:'',
 	});
 
     const onInputChange = e => {
@@ -23,7 +24,7 @@ const Contact = ({darkMode}) => {
 
     const onSubmit = async (e) => {
 		e.preventDefault();
-        emailjs.send('service_wsqkjj3', 'template_4fkn6zg', templateParams, 'user_1iDL8l98Jo24HGlJv5neS')
+        emailjs.send('service_7c05s2e', 'template_w9i4lgl', templateParams, 'hNa58F7qCcOvm5LnZ')
                 .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 }, (err) => {
@@ -36,7 +37,8 @@ const Contact = ({darkMode}) => {
                   });
                 setTemplateParams({
                     from_name: '',
-                    message: ''
+                    message: '',
+                    usermail_id:'',
                 })
     }
 
@@ -55,9 +57,13 @@ const Contact = ({darkMode}) => {
                 <Col lg={8}>
                 <br></br>
                 <Form onSubmit={e => onSubmit(e)}>
-                    <Form.Group>
-                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name" />
+                <Form.Group>
+                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.usermail_id} name="usermail_id" className="ph Usermail_id" type="ph mailid" placeholder="Enter your name " />
                     </Form.Group>
+                    <Form.Group>
+                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your mail id" />
+                    </Form.Group>
+
                     <Form.Group>
                         <Form.Control  onChange={e => onInputChange(e)} value={templateParams.message} name="message"  as="textarea" rows={8} className="ph msg" placeholder="Enter your message" />
                     </Form.Group>
