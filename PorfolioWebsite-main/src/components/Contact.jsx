@@ -57,16 +57,18 @@ const Contact = ({darkMode}) => {
                 <Col lg={8}>
                 <br></br>
                 <Form onSubmit={e => onSubmit(e)}>
-                <Form.Group>
-                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.usermail_id} name="usermail_id" className="ph Usermail_id" type="ph mailid" placeholder="Enter your name " />
-                    </Form.Group>
                     <Form.Group>
-                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your mail id" />
+                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="ph name" type="name" placeholder="Enter your name"  />
+                    </Form.Group>
+
+                    <Form.Group>
+                        <Form.Control onChange={e => onInputChange(e)} value={templateParams.usermail_id} name="usermail_id" className="ph Usermail_id" type="ph mailid" placeholder="Enter your mail id" />
                     </Form.Group>
 
                     <Form.Group>
                         <Form.Control  onChange={e => onInputChange(e)} value={templateParams.message} name="message"  as="textarea" rows={8} className="ph msg" placeholder="Enter your message" />
                     </Form.Group>
+
                     <Button variant={darkMode ? "outline-light" : "outline-dark"} type="submit">
                         Submit
                     </Button>
