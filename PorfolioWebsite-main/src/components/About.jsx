@@ -83,7 +83,7 @@ const About = ({darkMode}) => {
                         <Card.Title><h2 className="lead">Let's have an introduction!</h2></Card.Title>
                         <br></br>
                         <Card.Text>
-                      <p>I am a <strong>Full Stack Web Developer</strong> from India. I am graduated from Indira Gandhi Institute<strong> of Physical Education & Sports Sciences, Delhi</strong>, I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. I am very enthusiastic about learning new technologies and tools. I'm comfortable working on any domain if I find the project is worth it. You can imagine me focused on the laptop screen and typing or taking down notes. Apart from technical things,travelling, mountaineering and playing cricket.<br></br>
+                      <p>I am a <strong>Full Stack Web Developer</strong> from India. I am graduated from Indira Gandhi Institute<strong> of Physical Education & Sports Sciences, Delhi</strong>, I am a <strong>passionate developer</strong> and believe in <strong>networking</strong> a lot. I am very enthusiastic about learning new technologies and tools. I'm comfortable working on any domain. Apart from technical things,travelling, mountaineering and playing cricket.<br></br>
                            please feel free to drop a text because <strong>Communication is a two-way street.</strong></p>
                         </Card.Text>
                         <a href={resume} target="_blank" rel="noreferrer noopener">
