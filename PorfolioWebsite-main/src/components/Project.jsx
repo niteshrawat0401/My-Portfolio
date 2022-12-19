@@ -2,7 +2,7 @@
 import { Zoom, Fade } from 'react-awesome-reveal'
 
 import lyst from '../media/Lyst.png'
-import porter from '../media/porter.png'
+import pharmEasy from '../media/pharmEasy.png'
 import bewakoof from "../media/bewakoof.png"
 
 import Container from 'react-bootstrap/esm/Container'
@@ -37,14 +37,15 @@ const Project = ({ darkMode }) => {
                                                     <Card.Body>
                                                         <Card.Title align="center">Clone of Lyst.com</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">This is a London e-commerce website where you can purchase different types of clothes.</p>
+                                                            <p align="center">Lyst is a fashion company and premium shopping app. They have 160 million annual shoppers and always products available.</p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
                                                 <div className="flip-card-back">
-                                                    <p> Users can add items to the cart and make payment through many merchants like Paytm, Google etc.
-                                                        <br></br> Users can filter the item on the price, discount, brand, etc
-                                                        <br></br>Tech Stack - HTML, CSS, JavaScript, React and Redux.
+                                                    <p> Navbar, Search bar, and Products page, Product preview and Contact information,
+                                                        <br></br> Cart page, Payment, Order Summary, and User authentication.
+                                                        <br />
+                                                        <br></br>Tech Stack - HTML | CSS | JavaScript | React.js | Redux | Context Api | Tailwind | Material-Ui.
                                                     </p>
                                                 </div>
                                             </div>
@@ -69,18 +70,19 @@ const Project = ({ darkMode }) => {
                                         <div class="flip-card">
                                             <div class="flip-card-inner">
                                                 <div className="flip-card-front">
-                                                    <Card.Img variant="top" src={porter} />
+                                                    <Card.Img variant="top" src={pharmEasy} />
                                                     <Card.Body>
-                                                        <Card.Title align="center">Clone of porter.com</Card.Title>
+                                                        <Card.Title align="center">Clone of pharmEasy.in</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">Porter provides logistics solutions for businesses by providing mini trucks, tempos, and bikes on demand for bulk delivery.</p>
+                                                            <p align="center">This is an Indian e-commerce website where purchase medicines directly from the website and deliver in 1000+ cities and towns.</p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
                                                 <div className="flip-card-back">
-                                                    <p> Users can book bus, train, Hotel and make payment through many merchants like Paytm, Google etc.
-                                                        <br></br> Users can choose service according to their needs like bike, mini truck and tempos for delivery.
-                                                        <br></br>Tech Stack - HTML, CSS, JavaScript, ExpressJs, MongoDb, Nodejs, ReactJs and Redux.
+                                                    <p> User authentication, Profile, Search bar, Products page, Product preview page,
+                                                        <br></br> Health care products, Cart and Payment.
+                                                        <br />
+                                                        <br></br>Tech Stack - HTML | CSS | JavaScript | React.js | Context Api | Node.js | Express.js | Mongo DB | Nodemailer | Mongo Atlas | Mongoose | Chakra-UI
                                                     </p>
                                                 </div>
                                             </div>
@@ -88,10 +90,10 @@ const Project = ({ darkMode }) => {
                                     </center>
                                     <br></br>
                                     <div>
-                                        <a href="https://beautiful-rabanadas-160fc9.netlify.app/" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://pharmeasylion.vercel.app/" target="_blank" rel="noreferrer noopener">
                                             <Button className='a' variant={darkMode ? "outline-light" : "outline-dark"}>View Project</Button>
                                         </a>
-                                        <a href="https://github.com/niteshrawat0401/porter-clone" target="_blank" rel="noreferrer noopener">
+                                        <a href="https://github.com/Monica1310/vogue-pocket-8479" target="_blank" rel="noreferrer noopener">
                                             <Button className='a' variant={darkMode ? "outline-light" : "outline-dark"} >View Github Repo</Button>
                                         </a>
                                     </div>
@@ -110,14 +112,15 @@ const Project = ({ darkMode }) => {
                                                     <Card.Body>
                                                         <Card.Title align="center">Clone of Bewakoof.com</Card.Title>
                                                         <Card.Text>
-                                                            <p align="center">This is an Indian e-commerce website where you can purchase various types of clothes.</p>
+                                                            <p align="center">Bewakoof.com Bewakoof is a lifestyle fashion brand that makes creative and Their products is always fresh and up-to-date.</p>
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </div>
                                                 <div className="flip-card-back">
-                                                    <p> Users can book bus, train, Hotel and make payment through many merchants like Paytm, Google etc.
-                                                        <br></br> Users can filter as per their convenince etc
-                                                        <br></br>Tech Stack - HTML, CSS, JavaScript.
+                                                    <p> Navbar, Profile, Search bar, Product page, Product detail page, sort, filter and  
+                                                        <br></br>User authentication.
+                                                        <br />
+                                                        <br></br>Tech Stack - HTML | CSS | JavaScript.
                                                     </p>
                                                 </div>
                                             </div>
