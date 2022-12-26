@@ -1,7 +1,7 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import './styles.css';
-import resume from '../media/Nitesh singh Rawat fw15_087.pdf'
+import resume from '../media/Nitesh Singh Rawat Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
