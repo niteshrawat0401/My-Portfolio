@@ -180,6 +180,11 @@ strong, .with{
     transform: rotateY(180deg);
 }
 
+.bttn{
+    height: 3rem;
+    margin-top: 2rem;
+}
+
 .sbtn{
     margin-top: 20px;
 }
