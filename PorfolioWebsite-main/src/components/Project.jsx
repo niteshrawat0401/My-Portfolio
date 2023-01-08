@@ -70,7 +70,8 @@ const Project = ({ darkMode }) => {
                   </center>
                   <br></br>
                   <div>
-                    <a className="ankr"
+                    <a
+                      className="ankr"
                       href="https://lyst-clone.netlify.app/"
                       target="_blank"
                       rel="noreferrer noopener"
