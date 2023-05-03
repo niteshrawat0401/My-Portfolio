@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
+import { ProffesionalExperience } from './components/ProffesionalExperience';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="#about" className="link">About me</Nav.Link>
+                    <Nav.Link href="#experience" className="link">Proffesional experience</Nav.Link>
                     <Nav.Link href="#skills" className="link">Skills</Nav.Link>
                     <Nav.Link href="#Project" className="link">Project</Nav.Link>
                     <Nav.Link href="#contact" className="link">Contact</Nav.Link>
@@ -42,6 +44,9 @@ function App() {
           </div>
           <div id="about">
           <About darkMode={darkMode} />
+          </div>
+          <div id="experience">
+          <ProffesionalExperience darkMode={darkMode} />  
           </div>
           <div id="skills">
           <Skills darkMode={darkMode} />

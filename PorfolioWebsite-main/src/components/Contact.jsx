@@ -82,7 +82,7 @@ const Contact = ({darkMode}) => {
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/niteshrawat0401?tab=repositories"
+                                    href="https://github.com/niteshrawat0401"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"

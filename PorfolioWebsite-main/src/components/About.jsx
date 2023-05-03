@@ -110,7 +110,7 @@ const About = ({darkMode}) => {
                             <FontAwesomeIcon className="dark" size="lg" icon={faLinkedin}/> Nitesh Singh Rawat
                           </Button>
                         </a>
-                        <a href="https://github.com/niteshrawat0401?tab=repositories" target="_blank" rel="noreferrer noopener">
+                        <a href="https://github.com/niteshrawat0401" target="_blank" rel="noreferrer noopener">
                           <Button variant={darkMode ? "outline-light" : "outline-dark"}>
                             <FontAwesomeIcon className="dark" size="lg" icon={faGithub}/>  Nitesh Singh Rawat
                           </Button>
@@ -122,7 +122,7 @@ const About = ({darkMode}) => {
                 </Row>
                 <br></br>
                 <hr></hr>
-                <br></br>
+                {/* <br></br> */}
               </Container>
             </Fade>
         </div>   
