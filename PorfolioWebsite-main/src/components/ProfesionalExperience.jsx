@@ -11,7 +11,7 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-export const ProffesionalExperience = ({darkMode}) => {
+export const ProfesionalExperience = ({darkMode}) => {
   return (
     <div data-theme={darkMode ? "dark" : "light"}>
           <br></br>
