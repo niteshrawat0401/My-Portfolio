@@ -122,7 +122,6 @@ const About = ({darkMode}) => {
                 </Row>
                 <br></br>
                 <hr></hr>
-                {/* <br></br> */}
               </Container>
             </Fade>
         </div>   

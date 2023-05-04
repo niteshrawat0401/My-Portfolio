@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Home, About, Skills, Contact, Footer } from './components'
+import { Home, About, ProfesionalExperience , Skills, Contact, Footer } from './components'
 import Project from './components/Project';
 import { useState } from "react";
 import Navbar from 'react-bootstrap/Navbar'
@@ -11,7 +11,6 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAdjust } from '@fortawesome/free-solid-svg-icons'
 import './components/styles.css'
-import { ProfesionalExperience } from './components/ProfesionalExperience';
 
 function App() {
 

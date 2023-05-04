@@ -40,6 +40,8 @@
 }
 .navbar .navname:hover {
   color: var(--name);
+  background-color: white;
+  border-radius: 5px;
 }
 
 .navbar .mr-auto .link {
@@ -52,6 +54,8 @@
 }
 .navbar .mr-auto .link:hover {
   color: var(--name);
+  background-color: white;
+  border-radius: 5px;
 }
 
 .dark {
@@ -277,4 +281,15 @@ strong,
 
 .icon-colour {
   color: #14ffec !important;
+}
+
+.navbar.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.active-link {
+  color: red;
+  font-weight: bold;
 }
